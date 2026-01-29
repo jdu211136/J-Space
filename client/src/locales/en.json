@@ -1,0 +1,239 @@
+{
+    "common": {
+        "dashboard": "Dashboard",
+        "projects": "Projects",
+        "tasks": "Tasks",
+        "calendar": "Calendar",
+        "logout": "Logout",
+        "search": "Search...",
+        "profile": "Profile",
+        "search_placeholder": "Search projects or tasks..."
+    },
+    "auth": {
+        "login_title": "Welcome back",
+        "welcome": "Welcome back",
+        "login_subtitle": "Enter your credentials to access your account",
+        "register_title": "Create an account",
+        "register_subtitle": "Enter your details to create your account",
+        "email": "Email",
+        "password": "Password",
+        "full_name": "Full Name",
+        "preferred_lang": "Preferred Language",
+        "login_button": "Sign In",
+        "register_button": "Sign Up",
+        "no_account": "Don't have an account?",
+        "have_account": "Already have an account?"
+    },
+    "sidebar": {
+        "my_workspace": "My Workspace",
+        "search": "Search",
+        "dashboard": "Dashboard",
+        "invitations": "Invitations",
+        "my_tasks": "My Tasks",
+        "projects": "Projects",
+        "create_project": "Create Project",
+        "profile": "Profile Settings",
+        "logout": "Log out",
+        "archived": "Archived"
+    },
+    "actions": {
+        "new_task": "New Task",
+        "create_task": "Create Task",
+        "cancel": "Cancel",
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "add": "Add",
+        "upload": "Upload",
+        "start_timer": "Start Timer",
+        "stop_timer": "Stop Timer",
+        "accept": "Accept",
+        "decline": "Decline"
+    },
+    "my_tasks": {
+        "title": "My Tasks",
+        "subtitle": "Manage your tasks across all projects",
+        "tabs": {
+            "all": "All Tasks",
+            "assigned": "Assigned To Me",
+            "delegated": "Delegated",
+            "private": "Private"
+        },
+        "groups": {
+            "overdue": "OVERDUE",
+            "today": "TODAY",
+            "upcoming": "UPCOMING",
+            "no_date": "NO DATE"
+        },
+        "loading": "Loading tasks...",
+        "no_tasks": "No tasks for this period",
+        "quick_add": "New Task",
+        "quick_add_placeholder": "Task name..."
+    },
+    "project": {
+        "create_new": "New Project",
+        "title_uz": "Title (UZ)",
+        "title_jp": "Title (JP)",
+        "title_en": "Title (EN)",
+        "name": "Project Name",
+        "name_placeholder": "Enter project name...",
+        "name_en": "Project Name (English)",
+        "name_uz": "Loyiha nomi (Uzbek)",
+        "description": "Description",
+        "category": "Category",
+        "color": "Color",
+        "team": "Team Members",
+        "public": "Public",
+        "create_button": "Create Project",
+        "created_success": "Project created successfully!",
+        "members_selected": "{{count}} member(s) selected",
+        "search_members": "Search members...",
+        "tabs": {
+            "tasks": "Tasks",
+            "overview": "Overview",
+            "documents": "Documents",
+            "settings": "Settings"
+        },
+        "views": {
+            "list": "List",
+            "board": "Board",
+            "calendar": "Calendar"
+        }
+    },
+    "kanban": {
+        "todo": "To Do",
+        "in_progress": "In Progress",
+        "done": "Done",
+        "reviewed": "Reviewed",
+        "drop_placeholder": "Drop tasks here"
+    },
+    "task_form": {
+        "title_label": "Task Title",
+        "desc_label": "Description",
+        "priority_label": "Priority",
+        "deadline_label": "Deadline",
+        "assignee_label": "Assignee",
+        "placeholder_title": "Task title...",
+        "placeholder_desc": "Add details...",
+        "priority": "Priority",
+        "deadline": "Deadline",
+        "assignee": "Assignee",
+        "unassigned": "Unassigned",
+        "status": "Status",
+        "search_members": "Search members...",
+        "add_subtask": "Add subtask...",
+        "add_comment": "Add a comment...",
+        "no_coworkers": "No co-workers",
+        "no_comments": "No comments yet."
+    },
+    "dashboard": {
+        "welcome": "Welcome back to your workspace",
+        "total_projects": "Total Projects",
+        "completed_tasks": "Completed Tasks",
+        "upcoming_deadlines": "Upcoming Deadlines",
+        "weekly_goal": "Weekly Goal",
+        "activity_stream": "Activity Stream",
+        "no_activity": "No recent activity",
+        "all_tasks": "All Tasks",
+        "assigned_to_me": "Assigned to Me",
+        "delegated": "Delegated",
+        "private": "Private",
+        "overdue": "Overdue",
+        "today": "Today",
+        "tomorrow": "Tomorrow",
+        "upcoming": "Upcoming",
+        "no_date": "No Date",
+        "no_tasks": "No tasks for this period"
+    },
+    "columns": {
+        "name": "Name",
+        "id": "ID",
+        "project": "Project",
+        "status": "Status",
+        "priority": "Priority",
+        "assignee": "Assignee",
+        "date": "Date"
+    },
+    "priority": {
+        "low": "Low",
+        "mid": "Medium",
+        "high": "High"
+    },
+    "roles": {
+        "owner": "Owner",
+        "member": "Member",
+        "admin": "Admin",
+        "viewer": "Viewer"
+    },
+    "members": {
+        "enter_email": "Enter email address",
+        "no_members": "No active members",
+        "invite": "Invite Member",
+        "send_invite": "Send Invite"
+    },
+    "toasts": {
+        "task_created": "Task created",
+        "task_completed": "Task completed!",
+        "task_reopened": "Task reopened",
+        "timer_started": "Timer started",
+        "timer_stopped": "Timer stopped",
+        "invitation_sent": "Invitation sent successfully",
+        "title_saved": "Title saved",
+        "success": "Success",
+        "error": "Error"
+    },
+    "errors": {
+        "general": "Something went wrong",
+        "load_tasks": "Failed to load tasks",
+        "create_task": "Failed to create task",
+        "update_status": "Failed to update status",
+        "invalid_email": "Please enter a valid email address",
+        "load_project": "Failed to load project",
+        "archive_failed": "Failed to archive project",
+        "delete_failed": "Failed to delete project",
+        "project_not_found": "Project not found"
+    },
+    "settings": {
+        "title": "Profile Settings",
+        "subtitle": "Manage your personal information",
+        "select_avatar": "Choose an avatar",
+        "full_name": "Full Name",
+        "email": "Email Address",
+        "email_readonly": "Email cannot be changed",
+        "bio": "About Me",
+        "bio_placeholder": "Tell us a little about yourself...",
+        "save": "Save Changes",
+        "saving": "Saving...",
+        "success": "Profile updated successfully",
+        "project_settings": "Project Settings",
+        "danger_zone": "Danger Zone",
+        "archive_project": "Archive Project",
+        "unarchive_project": "Restore Project",
+        "archive_description": "Archive this project to hide it from active projects list",
+        "unarchive_description": "Restore this project to make it active again",
+        "archive": "Archive",
+        "unarchive": "Restore",
+        "project_archived": "Project archived successfully",
+        "project_unarchived": "Project restored successfully",
+        "project_is_archived": "This project is archived",
+        "delete_project": "Delete Project",
+        "delete_description": "Permanently delete this project and all its data. This action cannot be undone.",
+        "delete": "Delete",
+        "delete_confirm": "Are you sure you want to permanently delete this project? This action cannot be undone.",
+        "project_deleted": "Project deleted successfully"
+    },
+    "landing": {
+        "heroTitle": "Manage Projects at Warp Speed.",
+        "heroSubtitle": "The all-in-one workspace for agile teams. Experience real-time collaboration and seamless design.",
+        "getStarted": "Get Started",
+        "signIn": "Sign In",
+        "features": {
+            "multiLang": "Multi-language Support",
+            "multiLangDesc": "Seamlessly switch between English, Japanese, and Uzbek.",
+            "kanban": "Kanban & Boards",
+            "kanbanDesc": "Visualize your workflow with intuitive Kanban boards.",
+            "darkMode": "Comfortable Interface",
+            "darkModeDesc": "Built-in dark mode and premium glassmorphism design."
+        }
+    }
+}

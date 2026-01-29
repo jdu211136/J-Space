@@ -1,0 +1,219 @@
+{
+    "common": {
+        "dashboard": "Boshqaruv paneli",
+        "projects": "Loyihalar",
+        "tasks": "Vazifalar",
+        "calendar": "Kalendar",
+        "logout": "Chiqish",
+        "search": "Qidirish...",
+        "profile": "Profil",
+        "search_placeholder": "Loyiha yoki vazifa qidirish..."
+    },
+    "auth": {
+        "login_title": "Xush kelibsiz",
+        "welcome": "Xush kelibsiz",
+        "login_subtitle": "Hisobingizga kirish uchun ma'lumotlarni kiriting",
+        "register_title": "Ro'yxatdan o'tish",
+        "register_subtitle": "Hisob yaratish uchun ma'lumotlarni kiriting",
+        "email": "Email",
+        "password": "Parol",
+        "full_name": "To'liq ism",
+        "preferred_lang": "Afzal til",
+        "login_button": "Kirish",
+        "register_button": "Ro'yxatdan o'tish",
+        "no_account": "Hisobingiz yo'qmi?",
+        "have_account": "Hisobingiz bormi?"
+    },
+    "sidebar": {
+        "my_workspace": "Mening ish joyim",
+        "search": "Qidirish",
+        "dashboard": "Boshqaruv paneli",
+        "invitations": "Taklifnomalar",
+        "my_tasks": "Mening vazifalarim",
+        "projects": "Loyihalar",
+        "create_project": "Loyiha yaratish",
+        "profile": "Profil sozlamalari",
+        "logout": "Chiqish",
+        "archived": "Arxivlangan"
+    },
+    "actions": {
+        "new_task": "Yangi vazifa",
+        "create_task": "Vazifa yaratish",
+        "cancel": "Bekor qilish",
+        "save": "Saqlash",
+        "delete": "O'chirish",
+        "edit": "Tahrirlash",
+        "add": "Qo'shish",
+        "upload": "Yuklash",
+        "start_timer": "Vaqtni boshlash",
+        "stop_timer": "Vaqtni to'xtatish",
+        "accept": "Qabul qilish",
+        "decline": "Rad etish"
+    },
+    "my_tasks": {
+        "title": "Mening vazifalarim",
+        "subtitle": "Barcha loyihalar bo'yicha vazifalarni boshqaring",
+        "tabs": {
+            "all": "Barcha vazifalar",
+            "assigned": "Menga tayinlangan",
+            "delegated": "Delegat qilingan",
+            "private": "Shaxsiy"
+        },
+        "groups": {
+            "overdue": "MUDDATI O'TGAN",
+            "today": "BUGUN",
+            "upcoming": "KELGUSI",
+            "no_date": "SANA YO'Q"
+        },
+        "loading": "Vazifalar yuklanmoqda...",
+        "no_tasks": "Bu davr uchun vazifalar yo'q",
+        "quick_add": "Yangi vazifa",
+        "quick_add_placeholder": "Vazifa nomi..."
+    },
+    "project": {
+        "create_new": "Yangi loyiha",
+        "title_uz": "Sarlavha (UZ)",
+        "title_jp": "Sarlavha (JP)",
+        "title_en": "Sarlavha (EN)",
+        "name": "Loyiha nomi",
+        "name_placeholder": "Loyiha nomini kiriting...",
+        "name_en": "Loyiha nomi (Inglizcha)",
+        "name_uz": "Loyiha nomi (O'zbekcha)",
+        "description": "Tavsif",
+        "category": "Toifa",
+        "color": "Rang",
+        "team": "Jamoa a'zolari",
+        "public": "Ommaviy",
+        "create_button": "Loyiha yaratish",
+        "created_success": "Loyiha muvaffaqiyatli yaratildi!",
+        "members_selected": "{{count}} ta a'zo tanlandi",
+        "search_members": "A'zolarni qidirish...",
+        "tabs": {
+            "tasks": "Vazifalar",
+            "overview": "Umumiy ko'rinish",
+            "documents": "Hujjatlar",
+            "settings": "Sozlamalar"
+        },
+        "views": {
+            "list": "Ro'yxat",
+            "board": "Doska",
+            "calendar": "Kalendar"
+        }
+    },
+    "kanban": {
+        "todo": "Bajarish kerak",
+        "in_progress": "Jarayonda",
+        "done": "Bajarildi",
+        "reviewed": "Tekshirildi",
+        "drop_placeholder": "Vazifalarni bu yerga tashlang"
+    },
+    "task_form": {
+        "title_label": "Vazifa sarlavhasi",
+        "desc_label": "Tavsif",
+        "priority_label": "Ustuvorlik",
+        "deadline_label": "Muddat",
+        "assignee_label": "Ijrochi",
+        "placeholder_title": "Vazifa nomi...",
+        "placeholder_desc": "Tafsilot qo'shish...",
+        "priority": "Ustuvorlik",
+        "deadline": "Muddat",
+        "assignee": "Ijrochi",
+        "unassigned": "Tayinlanmagan",
+        "status": "Holat",
+        "search_members": "A'zolarni qidirish...",
+        "add_subtask": "Kichik vazifa qo'shish...",
+        "add_comment": "Izoh qo'shish...",
+        "no_coworkers": "Hamkorlar yo'q",
+        "no_comments": "Izohlar yo'q."
+    },
+    "dashboard": {
+        "welcome": "Ish joyingizga xush kelibsiz",
+        "total_projects": "Jami loyihalar",
+        "completed_tasks": "Bajarilgan vazifalar",
+        "upcoming_deadlines": "Yaqin muddatlar",
+        "weekly_goal": "Haftalik maqsad",
+        "activity_stream": "Faoliyatlar",
+        "no_activity": "So'nggi faoliyat yo'q",
+        "all_tasks": "Barcha vazifalar",
+        "assigned_to_me": "Menga tayinlangan",
+        "delegated": "Delegat qilingan",
+        "private": "Shaxsiy",
+        "overdue": "Muddati o'tgan",
+        "today": "Bugun",
+        "tomorrow": "Ertaga",
+        "upcoming": "Kelgusi",
+        "no_date": "Sana yo'q",
+        "no_tasks": "Bu davr uchun vazifalar yo'q"
+    },
+    "columns": {
+        "name": "Nom",
+        "id": "ID",
+        "project": "Loyiha",
+        "status": "Holat",
+        "priority": "Ustuvorlik",
+        "assignee": "Ijrochi",
+        "date": "Sana"
+    },
+    "priority": {
+        "low": "Past",
+        "mid": "O'rta",
+        "high": "Yuqori"
+    },
+    "roles": {
+        "owner": "Egasi",
+        "member": "A'zo",
+        "admin": "Admin",
+        "viewer": "Ko'ruvchi"
+    },
+    "members": {
+        "enter_email": "Email manzilini kiriting",
+        "no_members": "Faol a'zolar yo'q",
+        "invite": "A'zo taklif qilish",
+        "send_invite": "Taklifnoma yuborish"
+    },
+    "toasts": {
+        "task_created": "Vazifa yaratildi",
+        "task_completed": "Vazifa bajarildi!",
+        "task_reopened": "Vazifa qayta ochildi",
+        "timer_started": "Vaqt boshlandi",
+        "timer_stopped": "Vaqt to'xtadi",
+        "invitation_sent": "Taklifnoma muvaffaqiyatli yuborildi",
+        "title_saved": "Sarlavha saqlandi",
+        "success": "Muvaffaqiyat",
+        "error": "Xato"
+    },
+    "errors": {
+        "general": "Xatolik yuz berdi",
+        "load_tasks": "Vazifalarni yuklashda xatolik",
+        "create_task": "Vazifa yaratishda xatolik",
+        "update_status": "Holatni yangilashda xatolik",
+        "invalid_email": "Iltimos, to'g'ri email manzilini kiriting"
+    },
+    "settings": {
+        "title": "Profil sozlamalari",
+        "subtitle": "Shaxsiy ma'lumotlaringizni boshqaring",
+        "select_avatar": "Avatar tanlang",
+        "full_name": "To'liq ism",
+        "email": "Email manzil",
+        "email_readonly": "Emailni o'zgartirish mumkin emas",
+        "bio": "Men haqimda",
+        "bio_placeholder": "O'zingiz haqingizda bir oz ma'lumot bering...",
+        "save": "O'zgarishlarni saqlash",
+        "saving": "Saqlanmoqda...",
+        "success": "Profil muvaffaqiyatli yangilandi"
+    },
+    "landing": {
+        "heroTitle": "Loyihalarni yorug'lik tezligida boshqaring.",
+        "heroSubtitle": "Agile jamoalar uchun yagona ish maydoni. Haqiqiy vaqt rejimida hamkorlik va mukammal dizaynni his eting.",
+        "getStarted": "Boshlash",
+        "signIn": "Kirish",
+        "features": {
+            "multiLang": "Ko'p tilli qo'llab-quvvatlash",
+            "multiLangDesc": "Ingliz, Yapon va O'zbek tillari o'rtasida oson almashing.",
+            "kanban": "Kanban va Doskalar",
+            "kanbanDesc": "Ish jarayoningizni intuitiv Kanban doskalari bilan vizualizatsiya qiling.",
+            "darkMode": "Qulay Interfeys",
+            "darkModeDesc": "O'rnatilgan tun rejimi va premium oyna uslubidagi dizayn."
+        }
+    }
+}

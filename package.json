@@ -1,0 +1,11 @@
+{
+  "name": "jdu-cowork-root",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd client && npm install && cd ../server && npm install",
+    "build": "cd server && npm run build && cd ../client && npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

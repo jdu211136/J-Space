@@ -1,0 +1,219 @@
+{
+    "common": {
+        "dashboard": "ダッシュボード",
+        "projects": "プロジェクト",
+        "tasks": "タスク",
+        "calendar": "カレンダー",
+        "logout": "ログアウト",
+        "search": "検索...",
+        "profile": "プロフィール",
+        "search_placeholder": "プロジェクトやタスクを検索..."
+    },
+    "auth": {
+        "login_title": "おかえりなさい",
+        "welcome": "おかえりなさい",
+        "login_subtitle": "アカウントにアクセスするには認証情報を入力してください",
+        "register_title": "アカウント作成",
+        "register_subtitle": "アカウントを作成するには詳細を入力してください",
+        "email": "メールアドレス",
+        "password": "パスワード",
+        "full_name": "氏名",
+        "preferred_lang": "希望言語",
+        "login_button": "サインイン",
+        "register_button": "サインアップ",
+        "no_account": "アカウントをお持ちでないですか？",
+        "have_account": "すでにアカウントをお持ちですか？"
+    },
+    "sidebar": {
+        "my_workspace": "マイワークスペース",
+        "search": "検索",
+        "dashboard": "ダッシュボード",
+        "invitations": "招待",
+        "my_tasks": "マイタスク",
+        "projects": "プロジェクト",
+        "create_project": "プロジェクト作成",
+        "profile": "プロフィール設定",
+        "logout": "ログアウト",
+        "archived": "アーカイブ"
+    },
+    "actions": {
+        "new_task": "新規タスク",
+        "create_task": "タスク作成",
+        "cancel": "キャンセル",
+        "save": "保存",
+        "delete": "削除",
+        "edit": "編集",
+        "add": "追加",
+        "upload": "アップロード",
+        "start_timer": "タイマー開始",
+        "stop_timer": "タイマー停止",
+        "accept": "承諾",
+        "decline": "辞退"
+    },
+    "my_tasks": {
+        "title": "マイタスク",
+        "subtitle": "すべてのプロジェクトのタスクを管理",
+        "tabs": {
+            "all": "すべてのタスク",
+            "assigned": "私に割り当て済み",
+            "delegated": "委任済み",
+            "private": "プライベート"
+        },
+        "groups": {
+            "overdue": "期限切れ",
+            "today": "今日",
+            "upcoming": "今後",
+            "no_date": "日付なし"
+        },
+        "loading": "タスクを読み込み中...",
+        "no_tasks": "この期間のタスクはありません",
+        "quick_add": "新規タスク",
+        "quick_add_placeholder": "タスク名..."
+    },
+    "project": {
+        "create_new": "新規プロジェクト",
+        "title_uz": "タイトル (UZ)",
+        "title_jp": "タイトル (JP)",
+        "title_en": "タイトル (EN)",
+        "name": "プロジェクト名",
+        "name_placeholder": "プロジェクト名を入力...",
+        "name_en": "プロジェクト名（英語）",
+        "name_uz": "プロジェクト名（ウズベク語）",
+        "description": "説明",
+        "category": "カテゴリ",
+        "color": "カラー",
+        "team": "チームメンバー",
+        "public": "公開",
+        "create_button": "プロジェクト作成",
+        "created_success": "プロジェクトが作成されました！",
+        "members_selected": "{{count}}人のメンバーを選択中",
+        "search_members": "メンバーを検索...",
+        "tabs": {
+            "tasks": "タスク",
+            "overview": "概要",
+            "documents": "ドキュメント",
+            "settings": "設定"
+        },
+        "views": {
+            "list": "リスト",
+            "board": "ボード",
+            "calendar": "カレンダー"
+        }
+    },
+    "kanban": {
+        "todo": "ToDo",
+        "in_progress": "進行中",
+        "done": "完了",
+        "reviewed": "レビュー済み",
+        "drop_placeholder": "ここにタスクをドロップ"
+    },
+    "task_form": {
+        "title_label": "タスク名",
+        "desc_label": "説明",
+        "priority_label": "優先度",
+        "deadline_label": "期限",
+        "assignee_label": "担当者",
+        "placeholder_title": "タスク名...",
+        "placeholder_desc": "詳細を追加...",
+        "priority": "優先度",
+        "deadline": "期限",
+        "assignee": "担当者",
+        "unassigned": "未割り当て",
+        "status": "ステータス",
+        "search_members": "メンバーを検索...",
+        "add_subtask": "サブタスクを追加...",
+        "add_comment": "コメントを追加...",
+        "no_coworkers": "共同作業者なし",
+        "no_comments": "コメントはまだありません。"
+    },
+    "dashboard": {
+        "welcome": "ワークスペースへようこそ",
+        "total_projects": "総プロジェクト数",
+        "completed_tasks": "完了したタスク",
+        "upcoming_deadlines": "締め切り間近",
+        "weekly_goal": "週間目標",
+        "activity_stream": "アクティビティ",
+        "no_activity": "最近のアクティビティはありません",
+        "all_tasks": "すべてのタスク",
+        "assigned_to_me": "私に割り当て済み",
+        "delegated": "委任済み",
+        "private": "プライベート",
+        "overdue": "期限切れ",
+        "today": "今日",
+        "tomorrow": "明日",
+        "upcoming": "今後",
+        "no_date": "日付なし",
+        "no_tasks": "この期間のタスクはありません"
+    },
+    "columns": {
+        "name": "名前",
+        "id": "ID",
+        "project": "プロジェクト",
+        "status": "ステータス",
+        "priority": "優先度",
+        "assignee": "担当者",
+        "date": "日付"
+    },
+    "priority": {
+        "low": "低",
+        "mid": "中",
+        "high": "高"
+    },
+    "roles": {
+        "owner": "オーナー",
+        "member": "メンバー",
+        "admin": "管理者",
+        "viewer": "閲覧者"
+    },
+    "members": {
+        "enter_email": "メールアドレスを入力",
+        "no_members": "アクティブなメンバーはいません",
+        "invite": "メンバーを招待",
+        "send_invite": "招待を送信"
+    },
+    "toasts": {
+        "task_created": "タスクが作成されました",
+        "task_completed": "タスクが完了しました！",
+        "task_reopened": "タスクが再開されました",
+        "timer_started": "タイマーが開始されました",
+        "timer_stopped": "タイマーが停止しました",
+        "invitation_sent": "招待が正常に送信されました",
+        "title_saved": "タイトルが保存されました",
+        "success": "成功",
+        "error": "エラー"
+    },
+    "errors": {
+        "general": "問題が発生しました",
+        "load_tasks": "タスクの読み込みに失敗しました",
+        "create_task": "タスクの作成に失敗しました",
+        "update_status": "ステータスの更新に失敗しました",
+        "invalid_email": "有効なメールアドレスを入力してください"
+    },
+    "settings": {
+        "title": "プロフィール設定",
+        "subtitle": "個人情報を管理",
+        "select_avatar": "アバターを選択",
+        "full_name": "氏名",
+        "email": "メールアドレス",
+        "email_readonly": "メールは変更できません",
+        "bio": "自己紹介",
+        "bio_placeholder": "自分について少し教えてください...",
+        "save": "変更を保存",
+        "saving": "保存中...",
+        "success": "プロフィールが更新されました"
+    },
+    "landing": {
+        "heroTitle": "光速でプロジェクトを管理しましょう。",
+        "heroSubtitle": "アジャイルチームのためのオールインワンワークスペース。リアルタイムのコラボレーションとシームレスなデザインを体験してください。",
+        "getStarted": "始める",
+        "signIn": "ログイン",
+        "features": {
+            "multiLang": "多言語サポート",
+            "multiLangDesc": "英語、日本語、ウズベク語をシームレスに切り替えます。",
+            "kanban": "カンバンとボード",
+            "kanbanDesc": "直感的なカンバンボードでワークフローを可視化します。",
+            "darkMode": "快適なインターフェース",
+            "darkModeDesc": "ダークモードとプレミアムなグラスモーフィズムデザインを搭載。"
+        }
+    }
+}
