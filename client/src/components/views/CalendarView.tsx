@@ -14,7 +14,6 @@ import {
     subMonths,
     parseISO,
     isWithinInterval,
-    differenceInDays,
     startOfDay
 } from 'date-fns';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
@@ -41,13 +40,7 @@ const getProjectColor = (projectId: number): string => {
 };
 
 // Get task position within week for multi-day spanning
-interface TaskBar {
-    task: Task;
-    startCol: number;  // 0-6
-    span: number;      // 1-7
-    isStart: boolean;  // Is this the start of the task
-    isEnd: boolean;    // Is this the end of the task
-}
+
 
 export const CalendarView = () => {
     const { projectId } = useParams();

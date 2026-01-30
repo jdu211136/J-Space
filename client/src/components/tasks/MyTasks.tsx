@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { getLocalizedString } from '../../hooks/useLocalized';
 import { PulseIndicator } from '../common/PulseIndicator';
 import { Circle, CheckCircle2, Plus, Flag, User as UserIcon, ChevronDown, ChevronRight } from 'lucide-react';
-import { format, isToday, isBefore, isAfter, startOfToday, parseISO } from 'date-fns';
+import { isToday, isBefore, isAfter, startOfToday, parseISO } from 'date-fns';
 import { motion } from 'framer-motion';
 import clsx from 'clsx';
 import api from '../../services/api';

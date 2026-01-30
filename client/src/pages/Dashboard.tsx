@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import { FolderKanban, CheckCircle2, Clock, Activity } from 'lucide-react';
 import { motion } from 'framer-motion';
