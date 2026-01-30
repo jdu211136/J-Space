@@ -30,7 +30,7 @@ router.delete('/:id', deleteProject);
 router.put('/:id/archive', toggleProjectArchive);
 
 // Star/Pin toggle
-router.put('/:id/star', toggleProjectStar);
+router.patch('/:id/toggle-star', toggleProjectStar);
 
 // Member management routes
 router.post('/:id/invite', inviteMember);

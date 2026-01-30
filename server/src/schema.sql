@@ -134,6 +134,20 @@ CREATE TABLE IF NOT EXISTS comments (
 );
 
 -- ============================================================
+-- TASK ATTACHMENTS TABLE
+-- ============================================================
+CREATE TABLE IF NOT EXISTS task_attachments (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    task_id UUID REFERENCES tasks(id) ON DELETE CASCADE,
+    file_name VARCHAR(255) NOT NULL,
+    file_path TEXT NOT NULL,
+    file_type VARCHAR(100),
+    file_size BIGINT,
+    uploaded_by UUID REFERENCES users(id) ON DELETE SET NULL,
+    created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+);
+
+-- ============================================================
 -- TIME LOGS TABLE (Timer/Time Tracking)
 -- ============================================================
 CREATE TABLE IF NOT EXISTS time_logs (
