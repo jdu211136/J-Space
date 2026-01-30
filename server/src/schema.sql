@@ -59,6 +59,8 @@ CREATE TABLE IF NOT EXISTS projects (
     category VARCHAR(100),
     color_code VARCHAR(50),
     is_public BOOLEAN DEFAULT false,
+    is_archived BOOLEAN DEFAULT false,
+    is_starred BOOLEAN DEFAULT false,
     created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
 );
