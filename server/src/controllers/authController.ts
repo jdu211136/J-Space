@@ -6,12 +6,12 @@ import { registerSchema, loginSchema } from '../utils/validation';
 
 export const register = async (req: Request, res: Response) => {
     try {
-        const validation = registerSchema.safeParse(req.body);
-        if (!validation.success) {
-            return res.status(400).json({ errors: validation.error.errors });
+        const result = registerSchema.safeParse(req.body);
+        if (!result.success) {
+            return res.status(400).json({ errors: result.error.errors });
         }
 
-        const { email, password, fullName, preferredLang } = validation.data;
+        const { email, password, fullName, preferredLang } = result.data;
 
         const userExists = await pool.query('SELECT id FROM users WHERE email = $1', [email]);
         if (userExists.rows.length > 0) {
@@ -43,12 +43,12 @@ export const register = async (req: Request, res: Response) => {
 
 export const login = async (req: Request, res: Response) => {
     try {
-        const validation = loginSchema.safeParse(req.body);
-        if (!validation.success) {
-            return res.status(400).json({ errors: validation.error.errors });
+        const result = loginSchema.safeParse(req.body);
+        if (!result.success) {
+            return res.status(400).json({ errors: result.error.errors });
         }
 
-        const { email, password } = validation.data;
+        const { email, password } = result.data;
 
         const result = await pool.query('SELECT * FROM users WHERE email = $1', [email]);
         if (result.rows.length === 0) {

@@ -7,12 +7,12 @@ import { TranslationService } from '../services/TranslationService';
 export const createProject = async (req: Request, res: Response) => {
     const client = await pool.connect();
     try {
-        const validation = projectSchema.safeParse(req.body);
-        if (!validation.success) {
-            return res.status(400).json({ errors: validation.error.errors });
+        const result = projectSchema.safeParse(req.body);
+        if (!result.success) {
+            return res.status(400).json({ errors: result.error.errors });
         }
 
-        const { titleUz, titleJp, titleEn, descUz, descJp, descEn, category, colorCode, isPublic } = validation.data;
+        const { titleUz, titleJp, titleEn, descUz, descJp, descEn, category, colorCode, isPublic } = result.data;
         const { members } = req.body; // Array of user IDs to add as members
         // @ts-ignore
         const ownerId = req.user?.id;
