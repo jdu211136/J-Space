@@ -9,7 +9,7 @@ export const createProject = async (req: Request, res: Response) => {
     try {
         const result = projectSchema.safeParse(req.body);
         if (!result.success) {
-            return res.status(400).json({ errors: result.error.errors });
+            return res.status(400).json({ errors: result.error.issues });
         }
 
         const { titleUz, titleJp, titleEn, descUz, descJp, descEn, category, colorCode, isPublic } = result.data;

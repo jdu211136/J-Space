@@ -8,7 +8,7 @@ export const register = async (req: Request, res: Response) => {
     try {
         const result = registerSchema.safeParse(req.body);
         if (!result.success) {
-            return res.status(400).json({ errors: result.error.errors });
+            return res.status(400).json({ errors: result.error.issues });
         }
 
         const { email, password, fullName, preferredLang } = result.data;
@@ -45,17 +45,17 @@ export const login = async (req: Request, res: Response) => {
     try {
         const result = loginSchema.safeParse(req.body);
         if (!result.success) {
-            return res.status(400).json({ errors: result.error.errors });
+            return res.status(400).json({ errors: result.error.issues });
         }
 
         const { email, password } = result.data;
 
-        const result = await pool.query('SELECT * FROM users WHERE email = $1', [email]);
-        if (result.rows.length === 0) {
+        const dbResult = await pool.query('SELECT * FROM users WHERE email = $1', [email]);
+        if (dbResult.rows.length === 0) {
             return res.status(400).json({ message: 'Invalid credentials' });
         }
 
-        const user = result.rows[0];
+        const user = dbResult.rows[0];
         const validPassword = await bcrypt.compare(password, user.password_hash);
         if (!validPassword) {
             return res.status(400).json({ message: 'Invalid credentials' });
